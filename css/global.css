@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body
+{
+    height: 100%;
+}
+h1 {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 22px;
+}   
+
+
+.container {
+    overflow: auto;
+    min-width: 1200px;
+}
+
+.main {
+    position: relative;
+    overflow-x: hidden;
+    float: left;
+    width: 74%;
+    height: 100%;
+    left: 26%;
+}
+.main .main-content {
+    padding: 25px 15px;
+}
+.logo {
+    margin-bottom: 35px;  
+}
+.menu {
+    font-family: 'Open Sans';
+    position: fixed;
+    float: left;
+    width: 25%;
+    min-width: 305px;
+    height: 100%;
+    background: #222222;
+    border-right: 7px solid #00B1F2;
+    color: #FFFFFF;
+}
+.menu a:hover {
+    cursor: pointer;
+    color: #00B1F2;
+}
+.menu a:hover {
+    cursor: pointer;
+    color: #00B1F2;
+}   
+.menu h3 {
+    font-size: 18px;
+    font-weight: 300;
+    background: url('../images/headerBG.png') repeat;
+    padding: 5px 25px 5px 15px;
+    text-transform: uppercase;
+    color: #00B1F2;
+    width: auto;
+    display: inline-block;
+    margin-right: -25px;
+}
+ul.items {
+    margin: 15px 0px;
+    list-style: none;   
+}
+ul.items li {
+    line-height: 1.9em;
+    text-transform: uppercase;
+}
+.iam {
+    display: inline-block;
+    opacity: 0.4;
+    margin-right: 15px;
+    color: #CCCCCC;
+}
+.iam-slash {
+    color: #00B1F2;
+}
+.menu .menu-content {
+    padding: 25px;
+    text-align: right;
+}
+
+.footer { 
+    padding: 1em 5%;
+}
