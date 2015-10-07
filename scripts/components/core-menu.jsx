@@ -7,7 +7,7 @@ define(function (require) {
         render: function () {
             return (
                 <ul className='items'>
-                    <li><a onClick={this.goToCreate.bind(this)}>Create</a></li>
+                    <li><a onClick={this.goToCreate}>Create</a></li>
                     <li>Deploy</li>
                     <li>Optimise</li>
                     <li>Manage</li>
